@@ -1,0 +1,29 @@
+{
+    "name": "patrixsmart/mailfast",
+    "description": "A simple package use to send email with the option of attaching a file and save the mail message to the database.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick C Duruamadi",
+            "email": "patrick@patrixsmart.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "unisharp/laravel-ckeditor": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Patrixsmart\\Mailfast\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Patrixsmart\\Mailfast\\MailfastServiceProvider"
+            ]
+        }
+    }
+}
