@@ -29,9 +29,9 @@ Unisharp\Ckeditor\ServiceProvider::class,
 
 ### Delete All Previously Sent Mails
 
-Delete all stored mails from the `mailfast_mails table` with the command below.
+Delete stored mails older than today from the `mailfast_mails table` with the command below.
 ```
-php artisan mail:prune
+php artisan mailfast:prune
 ```
 
 ### Publish the resources
