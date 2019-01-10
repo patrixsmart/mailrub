@@ -38,6 +38,12 @@ php artisan vendor:publish --tag=mailfast
 php artisan vendor:publish --tag=ckeditor
 ```
 
+### Email Form Location
+```
+http://..../mailfast/form
+
+```
+
 ### Delete All Previously Sent Mails
 
 Delete stored mails older than today from the `mailfast_mails table` with the command below.
