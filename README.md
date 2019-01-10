@@ -4,9 +4,7 @@
 <p align="center"><a href="https://patrixsmart.com" target="_blank"><img src="https://www.patrixsmart.com/storage/patrixsmart_images/shortcut_icon.jpg"></a></p>
 
 <p align="center">
-<a href="https://travis-ci.org/patrixsmart/mailfast"><img src="https://travis-ci.org/patrixsmart/mailfast.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/patrixsmart/mailfast"><img src="https://poser.pugx.org/patrixsmart/mailfast/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/patrixsmart/mailfast"><img src="https://poser.pugx.org/patrixsmart/mailfast/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/patrixsmart/mailfast"><img src="https://poser.pugx.org/patrixsmart/mailfast/license.svg" alt="License"></a>
 
 [![GitHub stars](https://img.shields.io/github/stars/patrixsmart/mailfast.svg)](https://github.com/patrixsmart/mailfast/stargazers)
