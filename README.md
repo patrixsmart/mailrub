@@ -37,6 +37,10 @@ Unisharp\Ckeditor\ServiceProvider::class,
 php artisan vendor:publish --tag=mailfast
 php artisan vendor:publish --tag=ckeditor
 ```
+### Migrate Mailfast Mails Table
+```
+php artisan migrate
+```
 
 ### Email Form Location
 ```
