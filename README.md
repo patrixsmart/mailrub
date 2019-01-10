@@ -16,7 +16,14 @@
 
 
 
-## A simple package use to send email with the option of attaching a file and save the mail message to the database.
+## *A simple package use to send email with the option of attaching a file and save the mail message to the database.*
+
+## Installation
+### Set up package
+
+```
+composer require patrixsmart/mailfast
+```
 
 
 ### Add ServiceProvider
@@ -27,6 +34,12 @@ Patrixsmart\Mailfast\MailfastServiceProvider::class,
 Unisharp\Ckeditor\ServiceProvider::class,
 ```
 
+### Publish the resources
+```
+php artisan vendor:publish --tag=mailfast
+php artisan vendor:publish --tag=ckeditor
+```
+
 ### Delete All Previously Sent Mails
 
 Delete stored mails older than today from the `mailfast_mails table` with the command below.
@@ -34,11 +47,6 @@ Delete stored mails older than today from the `mailfast_mails table` with the co
 php artisan mailfast:prune
 ```
 
-### Publish the resources
-```
-php artisan vendor:publish --tag=mailfast
-php artisan vendor:publish --tag=ckeditor
-```
 
 ### Security Vulnerabilities
 
