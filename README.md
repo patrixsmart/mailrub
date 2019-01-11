@@ -48,7 +48,7 @@ MAIL_PORT=587
 MAIL_USERNAME=xxxxxxxxxx
 MAIL_PASSWORD=xxxxxxxxxx 
 MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=info@patrixsmart.com
+MAIL_FROM_ADDRESS=mailfast@patrixsmart.com
 MAIL_FROM_NAME=PatriXsmarT
 ```
 ### Email Form Location
