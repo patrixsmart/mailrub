@@ -31,7 +31,6 @@ Edit config/app.php, add the following file to `Application Service Providers` s
 Patrixsmart\Mailfast\MailfastServiceProvider::class,
 Unisharp\Ckeditor\ServiceProvider::class,
 ```
-
 ### Publish the resources
 ```
 php artisan vendor:publish --tag=mailfast
@@ -41,21 +40,28 @@ php artisan vendor:publish --tag=ckeditor
 ```
 php artisan migrate
 ```
-
+### Set-Up .env Credentials For Mails
+```
+MAIL_DRIVER=smtp
+MAIL_HOST=xxxxxxxxxx
+MAIL_PORT=587
+MAIL_USERNAME=xxxxxxxxxx
+MAIL_PASSWORD=xxxxxxxxxx 
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=info@patrixsmart.com
+MAIL_FROM_NAME=PatriXsmarT
+```
 ### Email Form Location
 ```
 http://..../mailfast/form
 
 ```
-
 ### Delete All Previously Sent Mails
 
 Delete stored mails older than today from the `mailfast_mails table` with the command below.
 ```
 php artisan mailfast:prune
 ```
-
-
 ### Security Vulnerabilities
 
 If you discover a security vulnerability within Mailfast, please send an e-mail to Patrick C. Duruamadi via [patrick@patrixsmart.com](mailto:patrick@patrixsmart.com). All security vulnerabilities will be promptly addressed.
